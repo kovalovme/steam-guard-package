@@ -1,0 +1,19 @@
+{
+    "name": "wmmax/steam-guard-package",
+    "description": "Steam Guard package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxim Kovalov",
+            "email": "kovalovme@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "SteamTotp": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
